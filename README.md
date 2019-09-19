@@ -19,5 +19,5 @@ node server.js
 
 nodemon server.js 
 
-### After running the server. Run the html file by option like open with chrome
+### After running the server. Open chrome or any browser and type localhost:5500/chat
 There you go,you can create multiple client and make them intereact with each other
