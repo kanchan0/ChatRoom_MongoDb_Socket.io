@@ -1,0 +1,16 @@
+{
+  "name": "mongodb_socket.io_chatroom",
+  "version": "1.0.0",
+  "description": "simple chat app using socket,io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.3.2",
+    "nodemon": "^1.19.2",
+    "socket.io": "^2.2.0"
+  }
+}
