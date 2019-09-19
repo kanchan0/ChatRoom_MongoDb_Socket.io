@@ -18,3 +18,6 @@ node server.js
 ### you can also use nodemon to look after any changes that has been occuring in the app.
 
 nodemon server.js 
+
+### After running the server. Run the html file by option like open with chrome
+There you go,you can create multiple client and make them intereact with each other
