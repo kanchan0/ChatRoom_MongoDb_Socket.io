@@ -1,3 +1,5 @@
+const app = require("express")()
+var http = require('http').createServer(app);
 const mongo = require("mongodb").MongoClient;
 const client = require('socket.io').listen(4000).sockets;
 
@@ -60,3 +62,12 @@ mongo.connect('mongodb://127.0.0.1/mongochat',{ useNewUrlParser: true,useUnified
         })
     })
 })
+
+
+app.get('/chat', function(req, res){
+    res.sendFile(__dirname + '/index.html');
+  });
+
+http.listen(5500, function(){
+    console.log('listening on *:5500');
+  });
