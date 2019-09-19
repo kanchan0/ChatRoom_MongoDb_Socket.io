@@ -111,6 +111,8 @@
                         message:textarea.value
                     })
                     event.preventDefault();
+                }else{
+                    socket.emit("typing",{username:username.value})
                 }
             })
             //handle clear button
