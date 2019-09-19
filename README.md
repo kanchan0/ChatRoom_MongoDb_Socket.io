@@ -4,6 +4,13 @@ A Chat-Room which stores all the messages in database and then broadcast them to
 ##### 
 ## :heart: Star :heart: the repo to support the project or :smile:[Follow Me](https://github.com/kanchan0).Thanks
 
+
+### Features
+#### 1. Chatroom,where all your chat are stored and you can see it everytime you connect.
+#### 2. If a client is typing every on sees "`user` is typing ..",similar to whatsapp.
+#### 3. If you wish you can clear all chat too.This is not a good practice because anyone can delete the chat from database but         this is just a added functionality.
+#### 4.more are comming soon.
+
 ### First download or clone the project.Then 
 ### To install the all packages run the below command: 
 
